@@ -54,8 +54,7 @@
                 android:text="@string/about_google_developer_groups"
                 app:layout_constraintEnd_toStartOf="@+id/end_guideline"
                 app:layout_constraintStart_toStartOf="@+id/start_guideline"
-                app:layout_constraintTop_toBottomOf="@id/image"
-                app:fontFamily="serif-monospace" />
+                app:layout_constraintTop_toBottomOf="@id/image" />
 
             <TextView
                 android:id="@+id/intro_text"
@@ -76,12 +75,7 @@
                 android:text="@string/gdgs_are"
                 app:layout_constraintEnd_toStartOf="@id/end_guideline"
                 app:layout_constraintStart_toEndOf="@id/start_guideline"
-                app:layout_constraintTop_toBottomOf="@+id/intro_text"
-                android:textSize="18sp"
-                android:textColor="#555555"
-                android:textAllCaps="true"
-                android:textStyle="bold"
-                android:background="#ff9999" />
+                app:layout_constraintTop_toBottomOf="@+id/intro_text" />
 
             <TextView
                 android:id="@+id/description"
